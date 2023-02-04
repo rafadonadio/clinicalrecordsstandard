@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClinicalRecordsStandard>
+  <Facility>
+    <FacilityName>Name of Facility</FacilityName>
+    <FacilityType>Type of Facility</FacilityType>
+  </Facility>
+  <Patient>
+    <Name>Patient Name</Name>
+    <DOB>Patient Date of Birth</DOB>
+    <Address>Patient Address</Address>
+  </Patient>
+  <Visit>
+    <VisitDate>Date of Visit</VisitDate>
+    <VisitType>Type of Visit</VisitType>
+    <Purpose>Reason for Visit</Purpose>
+  </Visit>
+  <Tests>
+    <Test>
+      <TestType>Type of Test</TestType>
+      <TestResults>Test Results</TestResults>
+    </Test>
+  </Tests>
+  <Diagnosis>
+    <DiagnosisCode>Diagnosis Code</DiagnosisCode>
+    <DiagnosisDescription>Description of Diagnosis</DiagnosisDescription>
+  </Diagnosis>
+  <Procedures>
+    <Procedure>
+      <ProcedureCode>Procedure Code</ProcedureCode>
+      <ProcedureDescription>Description of Procedure</ProcedureDescription>
+    </Procedure>
+  </Procedures>
+</ClinicalRecordsStandard>
